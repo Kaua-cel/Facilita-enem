@@ -9,7 +9,7 @@ body, ul, li, p{
     list-style-type: none;
     list-style: none;
 }
-a{
+.opt{
     text-decoration: none;
     color: #fff;
     padding-right: 25px;
@@ -43,5 +43,51 @@ a{
     height: auto;
     padding-right: 5px;
     display: block;
-
+}
+.title{
+    font-size: 36px;
+    font-family: "Sriracha";
+    color: #4361ee;
+    text-align: center;
+    padding-bottom: 26px;
+    padding-top: 18px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.element{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-mat{
+    display: flex;
+    width: 254px;
+    border-radius: 10px;
+}
+.med{
+    background-color: #67d777;
+    width: 25px;
+    height: 175px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.materias{
+    display: inline;
+    text-decoration: none;
+    color: #4361ee;
+    font-size: 24px;
+    font-family: "Sriracha";
+    padding-right: 20px;
 }
